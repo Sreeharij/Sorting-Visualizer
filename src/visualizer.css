@@ -1,0 +1,55 @@
+/* visualizer.css */
+body {
+    background-color: #2d3748;
+    font-family: Arial, sans-serif;
+}
+
+.array-container-div {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    height: 650px;
+    background-color: #cbcbcb; /* Dark background color */
+    padding: 16px;
+}
+
+.array-value-bar {
+    background-color: #3b82f6; /* Blue color for the bars */
+    margin: 0 2px;
+    width: 6px;
+    transition: height 0.2s ease-in-out;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    background-color: #1a202c; /* Darker background for the buttons */
+    padding: 20px;
+    margin-top: 5%;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-button {
+    color: #ffffff;
+    background: linear-gradient(45deg, #2563eb, #1d4ed8);
+    padding: 15px 25px;
+    margin: 10px;
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    font-size: 1em;
+    font-weight: bold;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-button:hover {
+    background: linear-gradient(45deg, #1d4ed8, #2563eb);
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
+}
+
+.navbar-button:active {
+    transform: scale(0.98);
+    background: linear-gradient(45deg, #1b49b1, #1a3ea3);
+}
