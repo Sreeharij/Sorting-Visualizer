@@ -53,3 +53,15 @@ body {
     transform: scale(0.98);
     background: linear-gradient(45deg, #1b49b1, #1a3ea3);
 }
+
+
+.instruction {
+    font-size: 1em;
+    color: orange;
+    text-align: center; 
+    margin: 10px 0; 
+    background-color: rgba(0, 0, 0, 0.7); 
+    padding: 0px; 
+    border-radius: 5px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+}

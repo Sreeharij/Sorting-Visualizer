@@ -148,14 +148,20 @@ export default function Sorting_Visualizer() {
             <div className="array-container-div">
                 {array.map((value, index) => (
                     <div
-                        key={index}
-                        className="array-value-bar"
-                        style={{
+                    key={index}
+                    className="array-value-bar"
+                    style={{
                             height: `${value}px`,
-                        }}
-                    ></div>
-                ))}
+                            }}
+                            ></div>
+                            ))}
             </div>
+            
+            <h1 className="instruction" style={{fontSize:"1.5em", color:"orange"}}>
+            Once You Stop Sorting, Click on "Generate Array" Before sorting again
+            </h1>
+
+
             <div className="button-container">
                 <button onClick={handleGenerateArray} style={{background:"green"}} className="navbar-button">
                     Generate Array
